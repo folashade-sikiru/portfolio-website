@@ -66,3 +66,35 @@ p{
     color:#444;
     text-align:justify;
 }
+
+.skills{
+    max-width:900px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.skills h2{
+    color:#0B3D91;
+    margin-bottom:25px;
+}
+
+.skill-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill-box span{
+    background:#0B3D91;
+    color:white;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.skill-box span:hover{
+    background:#1E88E5;
+    transform:translateY(-3px);
+}
