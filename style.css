@@ -223,3 +223,34 @@ footer{
     margin-top:60px;
     font-size:16px;
 }
+
+.contact{
+    max-width:900px;
+    margin:60px auto;
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.contact h2{
+    text-align:center;
+    color:#0B3D91;
+    margin-bottom:20px;
+}
+
+.contact p{
+    font-size:18px;
+    margin:18px 0;
+    color:#333;
+}
+
+.contact a{
+    color:#0B3D91;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact a:hover{
+    color:#1E88E5;
+}
